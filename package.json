@@ -1,0 +1,30 @@
+{
+  "name": "union-app",
+  "version": "1.0.0",
+  "description": "Real-time chat application.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hudson-TD/union-app.git"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "Socket.io"
+  ],
+  "author": "Tyler Hudson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hudson-TD/union-app/issues"
+  },
+  "homepage": "https://github.com/Hudson-TD/union-app#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "moment": "^2.30.1",
+    "socket.io": "^4.7.4"
+  }
+}
